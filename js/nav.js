@@ -10,8 +10,6 @@ function navAllStories(evt) {
 
 $body.on("click", "#nav-all", navAllStories);
 
-
-
 function navSubmitStoryClick(evt) {
   console.debug("navSubmitStoryClick", evt);
   hidePageComponents();
@@ -29,8 +27,6 @@ function navFavoritesClick(evt) {
 
 $body.on("click", "#nav-favorites", navFavoritesClick);
 
-
-
 function navMyStories(evt) {
   console.debug("navMyStories", evt);
   hidePageComponents();
@@ -39,8 +35,6 @@ function navMyStories(evt) {
 }
 
 $body.on("click", "#nav-my-stories", navMyStories);
-
-
 
 function navLoginClick(evt) {
   console.debug("navLoginClick", evt);
@@ -51,8 +45,6 @@ function navLoginClick(evt) {
 
 $navLogin.on("click", navLoginClick);
 
-
-
 function navProfileClick(evt) {
   console.debug("navProfileClick", evt);
   hidePageComponents();
@@ -60,8 +52,6 @@ function navProfileClick(evt) {
 }
 
 $navUserProfile.on("click", navProfileClick);
-
-
 
 function updateNavOnLogin() {
   console.debug("updateNavOnLogin");
